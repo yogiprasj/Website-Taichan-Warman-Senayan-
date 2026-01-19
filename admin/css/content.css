@@ -1,0 +1,459 @@
+/* Content Management Styles */
+.content-management {
+    margin-bottom: 3rem;
+}
+
+.content-management .section-header {
+    margin-bottom: 2rem;
+}
+
+.content-management .section-header h2 {
+    color: #23120B;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Form Styles for Content Management */
+.content-form {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #23120B;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+    background: white;
+}
+
+.file-input {
+    padding: 0.5rem;
+    background: white;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #FDB827;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.current-value, .current-path {
+    margin-top: 0.5rem;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.field-info {
+    color: #FDB827;
+    font-weight: normal;
+    font-size: 0.9rem;
+}
+
+.form-actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.btn-save {
+    background: #FDB827;
+    color: #23120B;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 1rem;
+}
+
+.btn-save:hover {
+    background: #FBBE24;
+    transform: translateY(-2px);
+}
+
+.btn-cancel {
+    background: #6c757d;
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s;
+    text-align: center;
+    display: inline-block;
+}
+
+.btn-cancel:hover {
+    background: #5a6268;
+    transform: translateY(-2px);
+}
+
+/* Image Upload & Preview for Content Management */
+.image-preview {
+    margin-top: 1rem;
+}
+
+.preview-image {
+    max-width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #e0e0e0;
+    margin-top: 0.5rem;
+}
+
+.no-preview {
+    height: 150px;
+    background: #f8f9fa;
+    border: 2px dashed #e0e0e0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    margin-top: 0.5rem;
+}
+
+/* Locations Management Styles */
+.locations-management {
+    margin-top: 3rem;
+}
+
+.locations-management .section-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.locations-management .section-header h2 {
+    color: #23120B;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.locations-management .section-header p {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+.locations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: 2rem;
+}
+
+.location-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e0e0e0;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.location-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.12);
+}
+
+.location-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.location-header h3 {
+    color: #23120B;
+    font-size: 1.3rem;
+    margin: 0;
+    font-weight: 600;
+}
+
+.status-badge {
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.status-badge.active {
+    background: #e8f5e8;
+    color: #2e7d32;
+}
+
+.status-badge.inactive {
+    background: #ffebee;
+    color: #d32f2f;
+}
+
+/* Image Upload Section for Locations */
+.image-upload-section {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-preview-container {
+    border-radius: 8px;
+    overflow: hidden;
+    background: #f8f9fa;
+    border: 2px solid #e0e0e0;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.location-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-placeholder {
+    text-align: center;
+    color: #999;
+    padding: 2rem;
+}
+
+.upload-button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.upload-btn {
+    background: #FDB827;
+    color: #23120B;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    width: auto;
+}
+
+.upload-btn:hover {
+    background: #FBBE24;
+    transform: translateY(-1px);
+}
+
+.file-input {
+    display: none;
+}
+
+/* Form Fields for Locations */
+.form-fields {
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+}
+
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #23120B;
+    font-size: 0.95rem;
+}
+
+.form-input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background: white;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #FDB827;
+    box-shadow: 0 0 0 2px rgba(253, 184, 39, 0.1);
+}
+
+/* Checkbox Styles - SUPER CLEAR */
+.checkbox-group {
+    margin-top: 1rem;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    background: #f8f9fa;
+    border: 2px solid #e0e0e0;
+    margin: 0;
+}
+
+.checkbox-label:hover {
+    background: #fff8e1;
+    border-color: #FDB827;
+}
+
+.checkbox-input {
+    display: none;
+}
+
+.checkmark {
+    width: 26px;
+    height: 26px;
+    border: 2px solid #999;
+    border-radius: 6px;
+    position: relative;
+    transition: all 0.3s ease;
+    background: white;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox-input:checked + .checkmark {
+    background: #FDB827;
+    border-color: #FDB827;
+}
+
+.checkbox-input:checked + .checkmark::after {
+    content: '✓';
+    color: #23120B;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.checkbox-text {
+    font-weight: 600;
+    color: #23120B;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+/* Location Actions */
+.location-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}
+
+.btn-update {
+    background: #FDB827;
+    color: #23120B;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 200px;
+}
+
+.btn-update:hover {
+    background: #FBBE24;
+    transform: translateY(-1px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .locations-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .form-actions {
+        flex-direction: column;
+    }
+    
+    .btn-save, .btn-cancel {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .location-header {
+        flex-direction: column;
+        gap: 0.75rem;
+        align-items: flex-start;
+    }
+    
+    .image-preview-container {
+        height: 180px;
+    }
+    
+    .content-form {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .location-card {
+        padding: 1rem;
+    }
+    
+    .locations-management .section-header h2 {
+        font-size: 1.5rem;
+    }
+    
+    .image-preview-container {
+        height: 160px;
+    }
+    
+    .content-form {
+        padding: 1rem;
+    }
+    
+    .form-grid {
+        gap: 1rem;
+    }
+}
