@@ -1,68 +1,61 @@
-# Website Taichan Warman Senayan
+# Taichan Warman Senayan Website
 
-Website **UMKM Sate Taichan Warman Senayan** merupakan website berbasis web dinamis yang berfungsi sebagai media informasi, promosi, dan pemesanan produk. Website ini dirancang untuk membantu pelanggan memperoleh informasi usaha dan melakukan pemesanan secara praktis tanpa harus datang langsung ke lokasi.
+The Taichan Warman Senayan UMKM Website is a dynamic web-based application designed to serve as an information platform, promotional medium, and ordering system. This website enables customers to access business information and place orders conveniently without visiting the physical location.
 
-Website ini telah dipublikasikan dan dapat diakses secara umum melalui:
+The website is publicly accessible at:  
 https://taichanwarman.web.id/
 
----
+## Description
 
-## Deskripsi
-Website menyediakan informasi menu, lokasi cabang yang terintegrasi dengan Google Maps, serta fitur pemesanan yang terhubung langsung ke WhatsApp admin. Selain itu, tersedia sistem admin yang digunakan untuk mengelola konten website, memantau pesanan, dan melihat laporan penjualan.
+This website provides menu information, branch locations integrated with Google Maps, and an ordering feature connected directly to the admin via WhatsApp. It also includes an admin system that allows content management, order monitoring, and sales reporting.
 
-Website dikembangkan dengan konsep **responsive design** sehingga dapat diakses dengan baik melalui berbagai perangkat seperti desktop, laptop, tablet, dan smartphone.
+The system is built using a responsive design approach, ensuring optimal usability across various devices, including desktops, laptops, tablets, and smartphones.
 
----
+## User Roles
 
-## Jenis Pengguna
-1. **Pelanggan**
-   - Mengakses informasi usaha dan menu
-   - Melihat lokasi cabang
-   - Melakukan pemesanan melalui WhatsApp
+### Customer
+- Access business and menu information  
+- View branch locations  
+- Place orders via WhatsApp  
 
-2. **Admin**
-   - Login ke sistem admin
-   - Mengelola konten website
-   - Memantau pesanan
-   - Melihat laporan penjualan
+### Admin
+- Log in to the admin system  
+- Manage website content  
+- Monitor incoming orders  
+- View sales reports  
 
----
+## Key Features
 
-## Fitur Utama
-- Informasi usaha dan produk
-- Daftar menu dalam bentuk price list
-- Form pemesanan terintegrasi WhatsApp
-- Lokasi cabang terhubung Google Maps
-- Sistem login admin
-- Manajemen konten website
-- Laporan penjualan dan pesanan terbaru
+- Business and product information display  
+- Menu list presented as a price list  
+- WhatsApp-integrated ordering form  
+- Branch locations integrated with Google Maps  
+- Admin authentication system  
+- Website content management  
+- Sales reports and recent order tracking  
 
----
+## Technologies Used
 
-## Teknologi yang Digunakan
-- HTML
-- CSS
-- JavaScript
-- PHP (Native)
-- Google Maps
-- WhatsApp Redirect API
+- HTML  
+- CSS  
+- JavaScript  
+- PHP (Native)  
+- Google Maps API  
+- WhatsApp Redirect API  
 
----
+## Project Status
 
-## Status Proyek
-- Website telah dihosting dan dapat diakses secara publik
-- Proyek dikembangkan sebagai bagian dari tugas akademik sekaligus portofolio
+- The website is deployed and publicly accessible  
+- Developed as part of an academic project and professional portfolio  
 
----
+## Notes
 
-## Catatan
-Dokumentasi akademik seperti SRS, SDD, UAT, dan laporan pengujian tidak disertakan dalam repository ini dan dikelola secara terpisah.
+Academic documentation such as Software Requirements Specification (SRS), Software Design Document (SDD), User Acceptance Testing (UAT), and testing reports are not included in this repository and are maintained separately.
 
----
+## Development Team
 
-## Tim Pengembang
-1. **Rheihandra Ardhiansyah** — Project Manager  
-2. **Farid Fadilah** — System Analyst  
-3. **Zolla Aldila Pratama** — UI/UX Designer  
-4. **Muhammad Yogi Prasojo** — Programmer  
-5. **Arya Ahmad Faraby** — Software Tester
+- Rheihandra Ardhiansyah — Project Manager  
+- Farid Fadilah — System Analyst  
+- Zolla Aldila Pratama — UI/UX Designer  
+- Muhammad Yogi Prasojo — Programmer  
+- Arya Ahmad Faraby — Software Tester  
